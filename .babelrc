@@ -1,0 +1,5 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": ["@babel/transform-flow-strip-types"],
+  "ignore": ["**/*.test.js"]
+}
