@@ -1,6 +1,6 @@
 {
   "name": "flow-filter-null",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Flow typed filtering of nulls from arrays",
   "main": "lib/index.js",
   "author": "Joe Hart <joehart42@outlook.com>",
