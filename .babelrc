@@ -1,7 +1,7 @@
 {
   "env": {
     "build": {
-      "presets": ["@babel/preset-env"],
+      "presets": ["minify"],
       "plugins": ["@babel/transform-flow-strip-types"],
       "ignore": ["**/*.test.js"]
     },
