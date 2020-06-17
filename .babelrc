@@ -1,5 +1,13 @@
 {
-  "presets": ["@babel/preset-env"],
-  "plugins": ["@babel/transform-flow-strip-types"],
-  "ignore": ["**/*.test.js"]
+  "env": {
+    "build": {
+      "presets": ["@babel/preset-env"],
+      "plugins": ["@babel/transform-flow-strip-types"],
+      "ignore": ["**/*.test.js"]
+    },
+    "test": {
+      "presets": ["@babel/preset-env"],
+      "plugins": ["@babel/transform-flow-strip-types"]
+    }
+  }
 }
