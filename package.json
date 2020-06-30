@@ -26,5 +26,8 @@
     "flow-copy-source": "^2.0.9",
     "flow-typed": "^3.1.0",
     "jest": "^26.0.1"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   }
 }
